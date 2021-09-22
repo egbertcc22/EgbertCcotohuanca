@@ -44,6 +44,11 @@
     line-height: 50px;
     text-transform: uppercase;
 }
+.menu li:hover{
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.68);
+}
 .open-menu,
 .close-menu{
     display: none;
