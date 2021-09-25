@@ -17,12 +17,25 @@
     padding: 0.5em 0.7em;
     margin: 10px;
 }
+
 .skills-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 0;
+}
+.skills-skill:hover{
+    box-shadow: 0px 0px 10px 10px var(--primary-color);
+    -webkit-box-shadow: 0px 0px 10px 10px var(--primary-color);
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+.skills-skill img{
+    width: 70px;
+    height: 70px;
+}
+.skills-skill img:hover{
+    filter: saturate(180%); 
 }
 @media(min-width: 950px){
     .skills-title{
@@ -32,5 +45,9 @@
     .skills-skill{
         font-size: 30px;
         margin: 20px;
+    }
+    .skills-skill img{
+        width: 100px;
+        height: 100px;
     }
 }
